@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: lne's 博客
+subtitle: 离牛逼就差一步
+description: 篮球、读书、吹牛B
+keywords: 
+author: lne
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:chronofei/chronofei.github.io.git
+  branch: master
